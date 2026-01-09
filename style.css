@@ -1,0 +1,66 @@
+* {
+    font-family: Consolas;
+    text-align: center;
+    list-style: none;
+}
+.header_CV  {
+    display: flex;
+    margin: 10px;
+}
+.titre {
+    width: 100%;
+}
+    .header_CV div {
+        padding: 1em;
+        background-color : royalblue;
+        margin: 5px;
+        border-radius: 10px;
+        color: gold;
+    }
+.main_CV {
+    display: flex;
+    margin: 10px;
+}
+    .main_CV div {
+        width: 33.3%;
+        border: 10px solid royalblue;
+        margin: 5px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .main_CV h3 {
+        background-color: royalblue;
+        margin: 5px;
+        color: gold;
+        border-radius: 5px;
+    }
+    .main_CV article {
+        display: flex;
+    }
+    .main_CV article p {
+        margin: 4px;
+    }
+    .main_CV img {
+        width: 50%;
+        object-fit: contain;
+    }
+.aside_CV {
+    background-color: royalblue;
+    border: 10px solid royalblue;
+    border-radius: 10px;
+    color: gold;
+    margin: 10px;
+    }
+.aside_CV a {
+    color: gold;
+    text-decoration: none;
+}
+footer {
+    background-color : royalblue;
+    border: 5px solid royalblue;
+    border-radius: 10px;
+    color: gold;
+    font-size: 16px;
+    margin: 10px;
+    }
+
